@@ -1,0 +1,36 @@
+{
+  "name": "my-app",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview",
+    "server": "ts-node src/server/index.ts"
+  },
+  "dependencies": {
+    "@types/body-parser": "1.19",
+    "@types/lodash": "4.14",
+    "@types/luxon": "^2.3.1",
+    "@types/marked": "^4.0.3",
+    "body-parser": "1.19",
+    "highlight.js": "11.5",
+    "lodash": "4.14",
+    "luxon": "^2.3.1",
+    "marked": "^4.0.3",
+    "pinia": "^2.0.14",
+    "vue": "^3.3.4",
+    "vue-router": "^4.0.15"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.5",
+    "@types/express": "^4.17.17",
+    "@vitejs/plugin-vue": "^4.2.3",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5",
+    "vue-tsc": "^1.8.5"
+  }
+}
